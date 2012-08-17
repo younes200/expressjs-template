@@ -27,7 +27,7 @@ sudo npm install nodemon -g
 
 then to run:
 
-node app.js
+`node app.js`
 
 or with nodemon:
 
@@ -40,6 +40,7 @@ or with nodemon:
 
 ##credits
 [express.js](http://expressjs.com/)
+
 [semantic.gs](http://semantic.gs/)
 
 
