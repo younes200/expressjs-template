@@ -44,12 +44,12 @@ or with nodemon:
 [Example](http://expressjs-template.herokuapp.com/)
 
 ##credits
-[express.js](http://expressjs.com/)
-[semantic.gs](http://semantic.gs/)
-[Jade](http://jade-lang.com/
-[Less](http://lesscss.org/)
-[CoffeeScript](http://coffeescript.org/) 
-[Socket.io](http://socket.io/)
+[express.js](http://expressjs.com/)<br />
+[semantic.gs](http://semantic.gs/)<br />
+[Jade](http://jade-lang.com/)<br />
+[Less](http://lesscss.org/)<br />
+[CoffeeScript](http://coffeescript.org/) <br />
+[Socket.io](http://socket.io/)<br />
 
 
 ## License
