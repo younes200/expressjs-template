@@ -2,17 +2,31 @@
 html
   head
     title Template
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     meta(charset="utf-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(name="robots", content="index, follow")
     meta(name="distribution", content="global")
     meta(name="format-detection", content="telephone=no")
     meta(name="apple-mobile-web-app-capable", content="yes")
-  
+    meta(name="description", content="")
+    meta(name="author", content="")
     script(src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.1/modernizr.min.js")
-		script(src="/socket.io/socket.io.js")
-		
+    script(src="/socket.io/socket.io.js")
     != css('main.css')
+  body
+  
+    header#top
+      h1 New Page
+        a(href="http://www.interactive-object.com/") Home
+
+
+
+    block content
+    
+   
+    != js('main')
+  
     script
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-XXXXXX-X']);
@@ -22,7 +36,4 @@ html
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-  body
-    block content
+      })(); 
