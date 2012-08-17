@@ -55,7 +55,7 @@ $ git push heroku master
 
 [Example](http://expressjs-template.herokuapp.com/)
 
-##credits
+## Credits
 [express.js](http://expressjs.com/)<br />
 [semantic.gs](http://semantic.gs/)<br />
 [Jade](http://jade-lang.com/)<br />
