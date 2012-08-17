@@ -18,14 +18,14 @@ It is a good project to start using Express, it includes :
 
 
 ```
-mkdir my-project
-cd my-project
-git init .
-git remote add expressjs-template git@github.com:thelaughingman/expressjs-template.git
-git pull expressjs-template master
+$ mkdir my-project
+$ cd my-project
+$ git init .
+$ git remote add expressjs-template git@github.com:thelaughingman/expressjs-template.git
+$ git pull expressjs-template master
 
-sudo npm install express -g
-npm install -d
+$ sudo npm install express -g
+$ npm install -d
 ````
 
 
@@ -44,7 +44,13 @@ or with nodemon:
 `nodemon server.js`
 
 
-## Heroku Example
+## Deploy
+Deploy your project to heroku:
+
+  $ heroku login
+  $ heroku create
+  $ git push heroku master
+  
 
 [Example](http://expressjs-template.herokuapp.com/)
 
