@@ -3,15 +3,11 @@
 Node app running with express.js
 uses Jade for templating CoffeeScript for javascript and Less for CSS
 Template using semantic grid and boilerplate.
+The temaplte is ready to deploy in Heroku with socket.io enabled !
 
+# Installation
 
-## Usage
-
-Just use it. 
-
-asuming you have node and npm installed
-
-to install:
+Asuming you have node and npm installed
 
 ```
 sudo npm install express -g
@@ -19,7 +15,7 @@ npm install -d
 ````
 
 
-practical for development:
+For development better to use [nodemon](https://github.com/remy/nodemon/):
 
 ````
 sudo npm install nodemon -g
