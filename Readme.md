@@ -16,9 +16,14 @@ It is a good project to start using Express, it includes :
 
 # Installation
 
-Asuming you have node and npm installed
 
 ```
+mkdir my-project
+cd my-project
+git init .
+git remote add expressjs-template git@github.com:thelaughingman/expressjs-template.git
+git pull expressjs-template master
+
 sudo npm install express -g
 npm install -d
 ````
