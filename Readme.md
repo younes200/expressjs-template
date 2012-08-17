@@ -1,9 +1,25 @@
-# Node Express.js template
+
+# Express.js Template
+-----------
 
 Node app running with express.js
 uses Jade for templating CoffeeScript for javascript and Less for CSS
-Template using semantic grid and boilerplate.
-The temaplte is ready to deploy in Heroku with socket.io enabled !
+
+
+
+
+
+Ninja Store is a very simple Express.js app template for you to hack around and understand Express better.
+
+It is a good project to start using Express, it includes :
+- [Jade](http://jade-lang.com/) template engine, 
+- [Less](http://lesscss.org/) CSS engine with boilerplate included
+- [CoffeeScript](http://coffeescript.org/) for client side javascript compiler
+- Websocket with [Socket.io](http://socket.io/).
+- Template layout with [semantic grid](http://semantic.gs/)
+- Responsive layout
+
+
 
 # Installation
 
@@ -40,3 +56,6 @@ or with nodemon:
 
 ## License
 [MIT license](http://www.opensource.org/licenses/mit-license.php)
+
+-----------
+Created by Younes benaomar @younesbenomar
