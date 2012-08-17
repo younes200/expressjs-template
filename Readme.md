@@ -1,8 +1,8 @@
 # Node Express.js template
 
 Node app running with express.js
-uses jade for templating CoffeeScript for javascript 
-Template using semantic grid, boilerplate
+uses Jade for templating CoffeeScript for javascript and Less for CSS
+Template using semantic grid and boilerplate.
 
 
 ## Usage
@@ -12,9 +12,9 @@ Just use it.
 asuming you have node and npm installed
 
 to install:
-```sudo npm install express -g
 
-sudo npm install bundle -g
+```
+sudo npm install express -g
 npm install -d
 ````
 
@@ -22,7 +22,7 @@ npm install -d
 practical for development:
 
 ````
-sudo npm install supervisor -g
+sudo npm install nodemon -g
 ````
 
 then to run:
@@ -30,6 +30,7 @@ then to run:
 node app.js
 
 or with nodemon:
+
 `nodemon app.js`
 
 
