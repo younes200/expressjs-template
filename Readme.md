@@ -1,7 +1,7 @@
 # Express.js Template
 -----------
 
-NodeJs webapp running with express.js
+Node app running with express.js
 uses Jade, CoffeeScript and Less.
 
 It is a good project to start using Express, it includes :
