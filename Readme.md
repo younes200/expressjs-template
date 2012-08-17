@@ -33,7 +33,9 @@ or with nodemon:
 `nodemon app.js`
 
 
+## Heroku Example
 
+[Example](http://expressjs-template.herokuapp.com/)
 
 ##credits
 [express.js](http://expressjs.com/)
