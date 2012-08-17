@@ -23,11 +23,11 @@ sudo npm install nodemon -g
 
 then to run:
 
-`node app.js`
+`node server.js`
 
 or with nodemon:
 
-`nodemon app.js`
+`nodemon server.js`
 
 
 ## Heroku Example
