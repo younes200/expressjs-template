@@ -32,25 +32,26 @@ $ npm install -d
 For development better to use [nodemon](https://github.com/remy/nodemon/):
 
 ````
-sudo npm install nodemon -g
+$ sudo npm install nodemon -g
 ````
 
 then to run:
 
-`node server.js`
+`$ node server.js`
 
 or with nodemon:
 
-`nodemon server.js`
+`$ nodemon server.js`
 
 
 ## Deploy
 Deploy your project to heroku:
 
-  $ heroku login
-  $ heroku create
-  $ git push heroku master
-  
+```
+$ heroku login
+$ heroku create
+$ git push heroku master
+```
 
 [Example](http://expressjs-template.herokuapp.com/)
 
