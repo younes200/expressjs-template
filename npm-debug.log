@@ -1,0 +1,31 @@
+info it worked if it ends with ok
+verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install' ]
+info using npm@1.1.16
+info using node@v0.6.15
+verbose config file C:\Users\younes\.npmrc
+verbose config file c:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file c:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+ERR! Couldn't read dependencies.
+ERR! Error: Invalid name: "Template project" may not start with '.' or contain %/@+: or whitespace
+ERR!     at c:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\read-json.js:289:13
+ERR!     at c:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\read-json.js:192:32
+ERR!     at P (c:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\read-json.js:168:40)
+ERR!     at c:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\read-json.js:134:7
+ERR!     at [object Object].<anonymous> (fs.js:123:5)
+ERR!     at [object Object].emit (events.js:64:17)
+ERR!     at fs.js:1181:12
+ERR!     at Object.oncomplete (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:94:5)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+ERR! cwd C:\home\Private\expressjs-coffeescript-less-socketio
+ERR! node -v v0.6.15
+ERR! npm -v 1.1.16
+ERR! message Invalid name: "Template project" may not start with '.' or contain %/@+: or whitespace
+verbose exit [ 1, true ]

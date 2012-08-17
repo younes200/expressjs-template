@@ -1,0 +1,16 @@
+{
+  "name":"Template project ",
+  "version":"0.0.1",
+  "dependencies": {
+    "underscore": "",
+		"express": "*",
+		"less": "*",
+		"jade": "*",
+		"connect-assets": "*",
+		"coffee-script": "*",
+		"socket.io": ""
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}
