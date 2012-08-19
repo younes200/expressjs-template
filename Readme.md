@@ -17,7 +17,7 @@ It is a good project to start using Express, it includes :
 # Installation
 
 
-```
+``` bash
 $ mkdir my-project
 $ cd my-project
 $ git init .
@@ -31,23 +31,26 @@ $ npm install -d
 
 For development better to use [nodemon](https://github.com/remy/nodemon/):
 
-````
+```` bash
 $ sudo npm install nodemon -g
 ````
 
 then to run:
 
-`$ node server.js`
+```` bash
+$ node server.js`
+````
 
 or with nodemon:
 
-`$ nodemon server.js`
-
+```` bash
+$ nodemon server.js`
+````
 
 ## Deploy
 Deploy your project to heroku:
 
-```
+``` bash
 $ heroku login
 $ heroku create
 $ git push heroku master
